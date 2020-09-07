@@ -1,0 +1,316 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Personal</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/jquery-ui.css">				
+			<link rel="stylesheet" href="css/nice-select.css">							
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">				
+			<link rel="stylesheet" href="css/main.css">
+		</head>
+		<body>	
+		  <header id="header">
+		    <div class="container main-menu">
+		    	<div class="row align-items-center justify-content-between d-flex">
+			      <div id="logo">
+			        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+			      </div>
+			      <nav id="nav-menu-container">
+			        <ul class="nav-menu">
+			          <li><a href="index.html">Home</a></li>
+			          <li><a href="about.html">About</a></li>
+			          <li><a href="services.html">Services</a></li>
+			          <li><a href="portfolio.html">Portfolio</a></li>
+			          <li><a href="price.html">Pricing</a></li>
+			          <li class="menu-has-children"><a href="">Blog</a>
+			            <ul>
+			              <li><a href="blog-home.html">Blog Home</a></li>
+			              <li><a href="blog-single.html">Blog Single</a></li>
+			            </ul>
+			          </li>	
+			          <li class="menu-has-children"><a href="">Pages</a>
+			            <ul>
+		            	  <li><a href="elements.html">Elements</a></li>
+				          <li class="menu-has-children"><a href="">Level 2 </a>
+				            <ul>
+				              <li><a href="#">Item One</a></li>
+				              <li><a href="#">Item Two</a></li>
+				            </ul>
+				          </li>
+			            </ul>
+			          </li>
+			          <li><a href="contact.html">Contact</a></li>
+			        </ul>
+			      </nav><!-- #nav-menu-container -->		    		
+		    	</div>
+		    </div>
+		  </header>
+
+			<!-- start banner Area -->
+			<section class="about-banner">
+				<div class="container">				
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content col-lg-12">
+                            
+							<h1 class="text-white">High Dynamic Range Imaging</h1>
+                            
+							<p class="text-white link-nav">
+                                <a href="index.html">Home </a>
+                                <span class="lnr lnr-arrow-right"></span>
+                                <a href="price.html">Portfolio</a>
+                                <span class="lnr lnr-arrow-right"></span>
+                                <p class="text-white">High Dynamic Range Imaging
+                            </p>
+						</div>	
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->	
+
+			<!-- Start price Area -->
+			<section class="price-area section-gap">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-70 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Choose Your Plan</h1>
+								<p>When someone does something that they know that they shouldn’t do, did they.</p>
+							</div>
+                            <div class="col-lg-12 pt-60">
+                                <h4 class="pt-30">High Dynamic Range</h4>
+                                <p>
+                                    Dynamic range describes the ratio of the brightest light to the most dim light in a scene. The world is high dynamic range, and to see it correctly, imaging sensors must be able to make HDR measurements. Cameras work well in scenes that are either bright or dim, but HDR scenes with both bright and dark regions usually result in some parts of the image being saturated and others too dark. The age-old solution has been taking many images at different exposures and then creating a composite image by hand in a photo editor so all parts of the scene are well-represented. Luckily, many cameras now have this built-in and can compose HDR images algorithmically in fractions of a second. I decided to explore how this works. To understand the noise-optimal approach, you must understand photography in the context of random processes.
+                                </p>
+                                <h4 class="pt-30">Photography as a Random Process Estimator</h4>
+				                <p>
+								    In a typical photography scene, there is at least one light source. These light sources emit photons randomly via a process called spontaneous emission. For an incandescent bulb, each atom composing the filament is heated via electrical current. This thermal energy excites the atom's electrons, causing them to rise to higher energy states. Higher energy states are unstable, and electrons will randomly release excess energy to return to their lowest-energy ground states. This energy is released sponteously as a photon traveling in a random direction. So at any moment, a scene's appearance is the result of photons released by lights in random directions, bouncing off of objects in the environment, and hitting a camera pixel. So each point in the scene sends photons to the camera at random intervals with an average rate of &Phi; photons per second (radiant flux). Camera pixels divide the number of received photons by the exposure time to estimate the brightness. So photography is really the process of calculating the average rate at which photons are received from scene spots seen by the pixels. Unsurprisingly, these measurements are imperfect; the shorter the exposure, the larger the estimation error, and the noisier the image.
+                                </p>
+                                
+                                <h6 class="pt-30">Example</h4>
+                                <p>
+                                    Assume you have 25 identical quarters of unknown bias. You also have a box split into 25 sections in a 5x5 grid, and you place a quarter in each. If you estimate the their fairness by flipping each coin twice, it is unlikely your results will all agree -- your set of measurements will have large variance. If you decide to flip the coins 100 times, it is still unlikely all will have the same results, but you can expect them to agree more closely; the variance should decrease. Say you continue this experiment for an infinite number of trials. Your variance should go to zero, and all coins' biases converge to the true value.
+                                </p>
+                                
+                                <p>
+                                    This example is analogous to photography where each box is a pixel: If a pixel only counts photons over a short exposure, it is more likely to misestimate the true radiant flux, causing a uniformly bright surface to appear nonuniform in an image. In the example, the probability distribution was binomial, whereas it is Poisson for photography.
+                                </p>
+                                <img class="image img-fluid-portfolio" src="img/portfolio/hdr/scene.jpg">
+                                <div class="row grid">
+                                    
+                                    <!-- Shelving -->
+                                    <div class="single-portfolio col-sm-4 all space">
+                                        <div class="relative">
+                                            <div class="thumb">
+                                                <div class="overlay overlay-bg"></div>
+                                                 <img class="image img-fluid-portfolio" src="img/portfolio/hdr/shelf_thumb.jpg" alt="">
+                                            </div>
+                                            <a href="img/portfolio/hdr/shelf.jpg" class="img-pop-up">	
+                                              <div class="middle">
+                                                <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
+                                              </div>
+                                            </a>                              		
+                                        </div>
+                                        <div class="p-inner">
+                                            <div class="cat">space</div>
+                                        </div>					                           
+                                    </div>
+
+                                    <!-- Wall Photo -->
+                                    <div class="single-portfolio col-sm-4 all space">
+                                        <div class="relative">
+                                            <div class="thumb">
+                                                <div class="overlay overlay-bg"></div>
+                                                 <img class="image img-fluid-portfolio" src="img/portfolio/hdr/photo_thumb.jpg" alt="">
+                                            </div>
+                                            <a href="img/portfolio/hdr/photo.jpg" class="img-pop-up">	
+                                              <div class="middle">
+                                                <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
+                                              </div>
+                                            </a>                              		
+                                        </div>
+                                        <div class="p-inner">
+                                            <div class="cat">space</div>
+                                        </div>					                           
+                                    </div>
+
+                                    <!-- Potted Plant -->
+                                    <div class="single-portfolio col-sm-4 all space">
+                                        <div class="relative">
+                                            <div class="thumb">
+                                                <div class="overlay overlay-bg"></div>
+                                                 <img class="image img-fluid-portfolio" src="img/portfolio/hdr/plant_thumb.jpg" alt="">
+                                            </div>
+                                            <a href="img/portfolio/hdr/plant.jpg" class="img-pop-up">	
+                                              <div class="middle">
+                                                <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
+                                              </div>
+                                            </a>                              		
+                                        </div>
+                                        <div class="p-inner">
+                                            <div class="cat">space</div>
+                                        </div>					                           
+                                    </div>
+                                </div>
+                                
+                                <h4 class="pt-30">Results</h4>
+				                <p>
+								    It has been established that a single photograph is a noisy estimate of a random photon arrival process. This concept is the basis for the low-noise HDR imaging problem, which can be stated as the following: Given two noisy images at different exposures, find optimal weights to produce an image with minimal noise. Assume you have two images, <strong>X</strong> & <strong>Y</strong> that are noisy estimates of the scene's true radiant flux, each with variance <strong>&sigma;<sub>x</sub></strong> & <strong>&sigma;<sub>y</sub></strong>. The HDR image will be a weighted average of the images, and the goal is to choose the optimal weights that minimize the noise (variance). We'll call the weights <strong>w<sub>x</sub></strong> and <strong>w<sub>y</sub></strong>, choosing them such that <strong>w<sub>x</sub></strong> + <strong>w<sub>y</sub></strong> = 1.
+				                </p>
+                                
+                                <h4 class="pt-30">Impact</h4>
+				                <p>
+								    
+				                </p>
+                                <h4 class="pt-30">Publication</h4>
+						  </div>
+					   </div>
+				    </div>
+                </div>
+			</section>
+			<!-- End price Area -->		
+
+			<!-- Start faq Area -->
+			<section class="faq-area pb-120">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-70 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Frequently Asked Questions</h1>
+								<p>When someone does something that they know that they shouldn’t do, did they really have a choice. Maybe what I mean to say is did they really have a chance. You can take two people.</p>
+							</div>
+						</div>
+					</div>						
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+						<dl class="accordion">
+							<dt>
+								<a href="">Dude You Re Getting A Telescope</a>
+							</dt>
+							<dd>
+							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam.
+							</dd>
+							<dt>
+								<a href="">The Basics Of Buying A Telescope</a>
+							</dt>
+							<dd>
+							Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. leo quam aliquet diam, congue laoreet elit metus eget diam.
+							</dd>
+							<dt>
+								<a href="">Astronomy Binoculars A Great Alternative</a>
+							</dt>
+							<dd>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.
+							</dd>
+							<dt>
+								<a href="">Do Your Self Realizations Quickly Fade</a>
+							</dt>
+							<dd>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.
+							</dd>
+							<dt>
+								<a href="">Success Steps For Your Personal Or Business Life</a>
+							</dt>
+							<dd>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.
+							</dd>
+						</dl>
+       
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End faq Area -->
+			
+            <!-- start footer Area -->
+            <footer class="footer-area section-gap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-6 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h4>About Me</h4>
+                                <p>
+                                    We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.
+                                </p>
+                                <p class="footer-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h4>Newsletter</h4>
+                                <p>Stay updated with our latest trends</p>
+								<div class="" id="mc_embed_signup">
+									 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
+									  <div class="input-group">
+									    <input type="text" class="form-control" name="EMAIL" placeholder="Enter Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
+									    <div class="input-group-btn">
+									      <button class="btn btn-default" type="submit">
+									        <span class="lnr lnr-arrow-right"></span>
+									      </button>    
+									    </div>
+									    	<div class="info"></div>  
+									  </div>
+									</form> 
+								</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+                            <div class="single-footer-widget">
+                                <h4>Follow Me</h4>
+                                <p>Let us be social</p>
+                                <div class="footer-social d-flex align-items-center">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    <a href="#"><i class="fa fa-behance"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- End footer Area -->		
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>			
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+    		<script src="js/jquery.tabs.min.js"></script>						
+			<script src="js/jquery.nice-select.min.js"></script>	
+            <script src="js/isotope.pkgd.min.js"></script>			
+			<script src="js/waypoints.min.js"></script>
+			<script src="js/jquery.counterup.min.js"></script>
+			<script src="js/simple-skillbar.js"></script>							
+			<script src="js/owl.carousel.min.js"></script>							
+			<script src="js/mail-script.js"></script>	
+			<script src="js/main.js"></script>	
+		</body>
+	</html>
