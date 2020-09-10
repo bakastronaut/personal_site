@@ -2711,6 +2711,7 @@ p[preset='#introText']:before {
 
 .single-portfolio {
   border-radius: 5px;
+    height: 310px;
 }
 
 .single-portfolio:hover .thumb .overlay-bg {
