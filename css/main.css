@@ -4503,20 +4503,20 @@ dl.accordion.time-line:before {
 /*-------- Start Custom Area -------------*/
 
 /* custom comes from timeline template*/
-.cardgrid {
+.surface {
   background: #f9f9ff;
   position: relative;
   margin: 0;
-  width: 2px;
+  width: 100%;
   padding-bottom: 40px;
   list-style-type: none;
 }
 
-.cardgrid:last-child {
+.surface:last-child {
   padding-bottom: 7px;
 }
 
-/*.cardgrid ul li:before {
+/*.surface ul li:before {
   content: '';
   background: #8490ff;
   position: absolute;
@@ -4532,15 +4532,15 @@ dl.accordion.time-line:before {
   border-radius: 50%;
 }*/
 
-.cardgrid .hidden {
+.surface .hidden {
   opacity: 0;
 }
 
-.cardgrid table td{
+.surface table td{
     padding: 10px;
 }
 
-.cardgrid .card {
+.surface .card {
   background-color: white !important;
   box-shadow: 0px 10px 27px 3px rgba(204, 204, 204, 0.2);
   position: ;
@@ -4550,14 +4550,59 @@ dl.accordion.time-line:before {
   height: 155px;
 }
 
-.cardgrid .card h4{
+.surface .card h4{
     padding-bottom: 20px;
     text-align: center;
 }
 
-.cardgrid .card p{
+.surface .card p{
     line-height: 0px;
     padding-bottom: 5px;
+    text-align: center;
+}
+
+.surface .sheet {
+  background-color: white !important;
+  box-shadow: 0px 10px 27px 3px rgba(204, 204, 204, 0.2);
+  position: ;
+  top: 7px;
+  width: 100%;
+  padding: 30px;
+  height: 1055px;
+}
+
+.surface .sheet h2{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.surface .sheet h4{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.surface .sheet img{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.surface .notecard {
+  background-color: white !important;
+  box-shadow: 0px 10px 27px 3px rgba(204, 204, 204, 0.2);
+  position: ;
+  top: 7px;
+  width: 100%;
+  padding: 30px;
+  height: 350px;
+}
+
+.surface .notecard h2{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.surface .notecard h4{
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -4567,4 +4612,9 @@ dl.accordion.time-line:before {
 
 .fancy-link:hover h4 {
   color: #8490ff;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
